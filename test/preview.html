@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  body { background:#000; margin:0; display:grid; grid-template-columns:repeat(3,500px); }
+  canvas { width:500px; height:500px; }
+</style>
+</head>
+<body>
+<script src="../js/sigil-engine.js"></script>
+<script>
+const samples = [
+  { name: 'Kate', intention: 'I am paid to be myself', style: 'spark' },
+  { name: 'Player One', intention: 'Money moves toward me', style: 'spark' },
+  { name: 'Ash', intention: 'I release what is not mine', style: 'spark' },
+  { name: 'Kate', intention: 'I am paid to be myself', style: 'ley' },
+  { name: 'Player One', intention: 'Money moves toward me', style: 'ley' },
+  { name: 'Ash', intention: 'I release what is not mine', style: 'ley' },
+  { name: 'Kate', intention: 'I am paid to be myself', style: 'star' },
+  { name: 'Player One', intention: 'Money moves toward me', style: 'star' },
+  { name: 'Ash', intention: 'I trust my next move', style: 'star' },
+];
+function renderAll() {
+  document.querySelectorAll('canvas').forEach((c) => c.remove());
+  samples.forEach((s) => {
+    const c = document.createElement('canvas');
+    c.width = 600; c.height = 600;
+    document.body.appendChild(c);
+    SigilEngine.draw(c, s);
+  });
+}
+document.fonts.ready.then(() => setTimeout(renderAll, 300));
+renderAll();
+</script>
+</body>
+</html>
