@@ -17,7 +17,7 @@ moves left, and they're all copy-paste. Total time: ~10 minutes.
    > Forge it. Charge it. Release it. Unlimited personalized sigils in three styles,
    > the complete Charging Chamber (six rituals + a bespoke rite for every sigil),
    > your private grimoire, and a new personal sigil every month.
-   > Log in at https://thefirstspark.github.io/sigil-forge/app.html with your checkout email.
+   > Log in at https://thefirstspark.shop/sigil-forge/app.html with your checkout email.
 5. Publish it.
 
 ✅ If the checkout link ends up being `https://whop.com/sparkverse-511c/sigil-forge/`
@@ -44,7 +44,7 @@ one line.
 1. Supabase dashboard → project → **Authentication** → **URL Configuration**
 2. Under **Redirect URLs**, add:
    ```
-   https://thefirstspark.github.io/sigil-forge/*
+   https://thefirstspark.shop/sigil-forge/*
    ```
 3. Save.
 
