@@ -8,7 +8,7 @@ window.SF_CONFIG = {
 
   // Whop checkout for the Sigil Forge subscription.
   // Create the product in Whop named "Sigil Forge" and this slug will exist.
-  WHOP_CHECKOUT_URL: 'https://whop.com/sparkverse-511c/sigil-forge/',
+  WHOP_CHECKOUT_URL: 'https://whop.com/checkout/plan_ujSn2WJvMazgD',
 
   // Where members manage/cancel their subscription
   WHOP_HUB_URL: 'https://whop.com/orders/',

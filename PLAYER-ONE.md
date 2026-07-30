@@ -5,6 +5,14 @@ moves left, and they're all copy-paste. Total time: ~10 minutes.
 
 ---
 
+## ✅ MOVE 1 — DONE (2026-07-30)
+
+Product "sigil forge" is live on Whop with the $11/mo plan, and the checkout
+link (`https://whop.com/checkout/plan_ujSn2WJvMazgD`) is wired into the app.
+The $88/yr plan doesn't exist yet — the Annual card on the landing page stays
+hidden until you create it in Whop and paste that plan's link to Claude.
+Original instructions kept below for reference.
+
 ## MOVE 1 — Create the product on Whop (~5 min)
 
 1. Go to your Whop dashboard → your **Sparkverse** store → **Add product**
