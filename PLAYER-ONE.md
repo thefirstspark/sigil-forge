@@ -17,7 +17,7 @@ moves left, and they're all copy-paste. Total time: ~10 minutes.
    > Forge it. Charge it. Release it. Unlimited personalized sigils in three styles,
    > the complete Charging Chamber (six rituals + a bespoke rite for every sigil),
    > your private grimoire, and a new personal sigil every month.
-   > Log in at https://thefirstspark.shop/sigil-forge/app.html with your checkout email.
+   > Log in at https://sigilcraft.thefirstspark.shop/forge/app.html with your checkout email.
 5. Publish it.
 
 ✅ If the checkout link ends up being `https://whop.com/sparkverse-511c/sigil-forge/`
@@ -44,7 +44,7 @@ one line.
 1. Supabase dashboard → project → **Authentication** → **URL Configuration**
 2. Under **Redirect URLs**, add:
    ```
-   https://thefirstspark.shop/sigil-forge/*
+   https://sigilcraft.thefirstspark.shop/forge/*
    ```
 3. Save.
 
@@ -71,7 +71,7 @@ one line.
 
 ## What's already done (no action needed)
 
-- ✅ App live at https://thefirstspark.github.io/sigil-forge/
+- ✅ App live at https://sigilcraft.thefirstspark.shop/forge/ (old thefirstspark.shop/sigil-forge URLs redirect there)
 - ✅ Supabase tables + row-level security (grimoires are private per member)
 - ✅ Webhook deployed and tested: grants on purchase, revokes on cancel,
   ignores your other Whop products
