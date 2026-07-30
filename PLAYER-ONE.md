@@ -7,10 +7,16 @@ moves left, and they're all copy-paste. Total time: ~10 minutes.
 
 ## ✅ MOVE 1 — DONE (2026-07-30)
 
-Product "sigil forge" is live on Whop with the $11/mo plan, and the checkout
-link (`https://whop.com/checkout/plan_ujSn2WJvMazgD`) is wired into the app.
-The $88/yr plan doesn't exist yet — the Annual card on the landing page stays
-hidden until you create it in Whop and paste that plan's link to Claude.
+Product "sigil forge" is live on Whop with both plans wired into the app:
+- $11/mo → `https://whop.com/checkout/plan_ujSn2WJvMazgD`
+- $88/yr → `https://whop.com/checkout/plan_iaM8RhLJ5gaGb`
+
+## ✅ MOVE 2 — DONE (2026-07-30)
+
+Whop webhook created by Kate; signing secret stored server-side (Supabase
+Vault) and the webhook function now rejects anything Whop didn't sign.
+Tested live: forged events get 401, properly signed events process. Locked.
+
 Original instructions kept below for reference.
 
 ## MOVE 1 — Create the product on Whop (~5 min)
